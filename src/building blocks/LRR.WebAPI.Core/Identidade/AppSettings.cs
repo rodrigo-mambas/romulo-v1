@@ -1,4 +1,4 @@
-﻿namespace LRR.Identidade.API.Extensions
+﻿namespace LRR.WebAPI.Core.Identidade
 {
     public class AppSettings
     {

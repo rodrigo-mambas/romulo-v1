@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using LRR.WebAPI.Core.Identidade;
 
 namespace LRR.Identidade.API.Configuration
 {
@@ -25,7 +26,7 @@ namespace LRR.Identidade.API.Configuration
 
             app.UseRouting();
 
-            app.UseIdentityConfiguration();
+            app.UseAuthConfiguration();
 
             app.UseEndpoints(endpoints =>
             {

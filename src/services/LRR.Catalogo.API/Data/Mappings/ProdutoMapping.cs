@@ -11,7 +11,7 @@ namespace LRR.Catalogo.API.Data.Mappings
             builder.HasKey(c => c.Id);
             builder.Property(c => c.Nome).IsRequired().HasColumnType("varchar(250)");
             builder.Property(c => c.Descricao).IsRequired().HasColumnType("varchar(500)");
-            builder.Property(c => c.Image).IsRequired().HasColumnType("varchar(250)");
+            builder.Property(c => c.Imagem).IsRequired().HasColumnType("varchar(250)");
             //builder.Property(c => c.Valor).IsRequired().HasColumnType("decimal(12,2)");
             builder.ToTable("Produtos");
         }

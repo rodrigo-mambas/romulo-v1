@@ -25,5 +25,9 @@
 
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\building blocks\LRR.WebAPI.Core\LRR.WebAPI.Core.csproj" />
+  </ItemGroup>
+
 
 </Project>

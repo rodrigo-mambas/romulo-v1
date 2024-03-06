@@ -2,18 +2,16 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using Microsoft.IdentityModel.JsonWebTokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 using System;
-using LRR.Identidade.API.Extensions;
 using Microsoft.Extensions.Options;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using System.Linq;
-using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using System.Collections.Generic;
+using LRR.WebAPI.Core.Identidade;
 
 namespace LRR.Identidade.API.Controllers
 {
